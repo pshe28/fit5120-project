@@ -9,23 +9,20 @@
     <div class="what_container">
     
         <div style=" background:url(../img/what_bg1.png)">
-            <iframe src="https://www.youtube.com/embed/71So8U_7Djs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-Mc7YI6BFJo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
         <div style=" background:url(../img/what_bg2.png)">
-            <iframe src="https://www.youtube.com/embed/kfCOzp4NjMc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/rPS-Qo9fyeY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
         <div style=" background:url(../img/what_bg3.png)">
-            <video src="../file/what_video1.mp4" controls="controls">
-                您的浏览器不支持 video 标签。
-            </video>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-Mc7YI6BFJo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
         <div style=" background:url(../img/what_bg4.png)">
-            <video src="../file/what_video1.mp4" controls="controls">
-                您的浏览器不支持 video 标签。
-            </video>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-Mc7YI6BFJo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
 
     </div>
 
 </asp:Content>
+
 
