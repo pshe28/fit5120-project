@@ -1,0 +1,10 @@
+﻿
+
+.home_1{ background-image:url(../img/home1_bg.png); height:505px}
+.home_1 a{ color:White; font-family: 'Times New Roman', Times, serif; font-size:28px; position:absolute;
+           margin-left:216px; margin-top:280px; text-decoration:underline}
+.home_1 a:hover{ color:#007aff;}
+
+
+
+

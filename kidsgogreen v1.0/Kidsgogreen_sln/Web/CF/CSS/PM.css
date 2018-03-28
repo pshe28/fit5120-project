@@ -1,0 +1,196 @@
+﻿
+
+body,input{font-size:14px; font-family: 'Times New Roman', Times, serif; color:#303030; margin:0px;}
+
+table{ border-collapse:collapse; font-size:inherit;}
+table tbody tr td{ padding:0px;}
+
+img{ border:none;}
+a{ text-decoration:none; color:#007aff; cursor:pointer}
+em{ color:Red; font-style:normal; font-weight:bolder; font-size:14px;}
+input{ padding-left:3px;}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+.listPanel{width:100%; height:60px;}
+.listPanel>tbody>tr>td { text-align:left}
+.listPanel input[type='submit'],.listPanel input[type='button']
+{ cursor:pointer; background-image:url(../img/sys/btnListPanel.png); border:none; color:#303030;
+  height:25px; border:solid 1px #6c6c6c; padding-left:10px; padding-right:10px;
+  border-radius:3px; margin-right:2px;}
+.listPanel input[type='text']{ width:150px; margin-right:2px; height:21px; line-height:21px; border:solid 1px #cacaca; color:#303030; border-radius:3px;}
+.listPanel select{ width:150px; margin-right:2px; height:25px; line-height:25px; border:solid 1px #cacaca; border-radius:3px;}
+
+.listHead
+{
+	width:100%; 
+	height:38px; 
+	background:#EEE; 
+    color:#303030;
+	text-align:left;  
+	border-bottom:solid 1px #fff;
+}
+.listHead input
+{
+    cursor:pointer;
+	border:none;
+	background-color:Transparent;
+	text-decoration:none;
+	text-align:left;
+    color:#303030;
+}
+
+
+.listBody
+{
+	width:100%; 
+	height:60px; 
+	text-align:left;
+	border-bottom:1px solid #e0e0e0;
+}
+.listBody input[type='submit'],.listBody input[type='button']
+{
+   cursor:pointer; background-image:url(../img/sys/btnListPanel.png); border:none; color:#303030;
+  height:25px; line-height:23px; border:solid 1px #6c6c6c; padding-left:10px; padding-right:10px;
+  border-radius:3px;
+}
+.listBody a{color:#3366cc;}
+.listBody:hover{ background-color:#f0f0f0;}
+.listBody img{ max-width:40px; max-height:40px;}
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+.detailBody{padding-top:20px;margin-left:20px;padding-bottom:20px;border-top:none; border-collapse:separate; 
+            border-spacing: expression(this.cellSpacing=10);text-align:left; line-height:24px;}
+
+.detailBody>tbody>tr>td{ padding-top:6px; padding-bottom:6px;}
+.detailBody>tbody>tr>td:nth-child(1){ text-align:right}
+.detailBody tr span{ color:#303030;}
+
+.detailBody input[type='text'],
+.detailBody input[type='password'],
+.detailBody textarea,
+.detailBody select
+{
+    width:350px;height: 35px; line-height:35px; padding-left:5px; font-size:inherit;
+    vertical-align: middle;background-color: #FFF;border: 1px solid #ddd; color:#303030;
+    overflow:hidden; border-radius:3px;
+ }
+ .detailBody input[type='submit'],
+ .detailBody input[type='button']
+ {
+    height:38px;
+    line-height:38px;
+    padding-left:25px;
+    padding-right:25px;
+    text-decoration: none;
+    cursor:pointer;
+    color:White;
+    background-color:red;
+    border:none;
+    border-radius:5px;
+ }
+ .detailBody input[type='file']{border:solid 1px #ddd; height:30px; width:500px;}
+ 
+.detailBody textarea{ height:120px;  width:595px; line-height:22px;}
+.detailBody textarea[onini='umeditor()']{ height:350px;  width:800px; line-height:22px;}
+.detailBody img{ border-radius:5px;}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+.article_container{text-align:left; padding:20px;}
+.article_title{ color:#303030; font-weight:bold; line-height:35px;}
+.article_con{ line-height:24px; margin-bottom:30px;}
+
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+.btnGeneral
+{
+    height:38px;
+    line-height:38px;
+    padding-left:25px;
+    padding-right:25px;
+    text-decoration: none;
+    cursor:pointer;
+    color:White;
+    background-color:red;
+    border:none;
+    border-radius:5px;
+}
+
+.btnGeneral2
+{
+  cursor:pointer; background-image:url(../img/sys/btnListPanel.png); border:none; color:#303030;
+  height:25px; line-height:23px; border:solid 1px #6c6c6c; padding-left:10px; padding-right:10px;
+  border-radius:3px;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+
+.txtGeneral
+{
+    width:300px;height: 25px;padding:6px 6px;font-size:inherit;line-height: 1.42857;color: #555;
+    vertical-align: middle;background-color: #FFF;border: 1px solid #CCC;
+    overflow:hidden;
+ }
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------*/
+
+.px_panel_border{   
+     background-color:White;
+     border-radius: 3px;
+     padding: 4px;
+     cursor:pointer;
+     float:left;
+     overflow:hidden;
+        
+     border: 1px solid;
+     border-color:#DDD #DDD #bbb;
+     box-shadow:0 1px 2px rgba(0,0,0,0.1);
+     
+    transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+}
+.px_panel_border span{ cursor:pointer; color:#6c6c6c}
+
+.px_panel_border:hover
+{
+    transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+}
+
+.px_panel_border:hover img[name='main']
+{
+      transform:rotate(-20deg) scale(1.5);
+      -ms-transform:rotate(-20deg) scale(1.5);
+      -moz-transform:rotate(-20deg) scale(1.5);
+      -webkit-transform:rotate(-20deg) scale(1.5);
+      -o-transform:rotate(-20deg) scale(1.5);
+  
+        transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+}
+
+.px_panel_border img[name='main']
+{
+        transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+}
+ 
+
+
+

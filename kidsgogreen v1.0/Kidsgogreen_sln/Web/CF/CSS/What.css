@@ -1,0 +1,8 @@
+﻿
+
+.what_container{}
+.what_container>div{ height:600px;}
+
+.what_container>div>iframe,
+.what_container>div>video
+{position:absolute; width:620px; height:380px; margin-left:450px; margin-top:105px;}

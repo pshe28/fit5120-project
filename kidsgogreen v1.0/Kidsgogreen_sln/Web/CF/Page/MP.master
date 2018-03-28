@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MP.master.cs" Inherits="CF_Page_MP" %>
+
+<!doctype html>
+<html>
+<head runat="server">
+    <title></title>
+    <link href="../CSS/PM.css" rel="stylesheet" type="text/css" />
+    <link href="../CSS/MP.css" rel="stylesheet" type="text/css" />
+    <script src="../JS/PX_jQueryv1.8.3.js" type="text/javascript"></script>
+    <script src="../JS/PM.js" type="text/javascript"></script>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div style=" width:1224px; margin:auto;">
+
+        <div class="menu">
+            <table>
+            <tr>
+            <td style=" width:100px;"></td>
+            <td><a href="Home.aspx"><img alt="" src="../Img/logo.png" /></a></td>
+            <td style=" width:100px;"></td>
+            <td><a href="What.aspx"><img alt="1" src="../Img/menu1.png" /></a></td>
+            <td style=" width:80px;"></td>
+            <td><a href="Play.aspx"><img alt="1" src="../Img/menu2.png" /></a></td><td></td>
+            <td style=" width:80px;"></td>
+            <td><a href="Watch.aspx"><img alt="1" src="../Img/menu3.png" /></a></td>
+            <td style=" width:80px;"></td>
+            <td><a href="Explore.aspx"><img alt="1" src="../Img/menu4.png" /></a></td>
+            <td style=" width:auto;"></td>
+            </tr>
+            </table>
+        </div>
+
+        <div style=" height:155px; "></div>
+    
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+        <div class="bottom" ><br /><br />
+            <table>
+            <tr><td><a href="Home.aspx"><img alt="" src="../Img/bottom_m1.png" /></a></td></tr>
+            <tr><td><a href="What.aspx"><img alt="" src="../Img/bottom_m2.png" /></a></td></tr>
+            <tr><td><a href="Play.aspx"><img alt="" src="../Img/bottom_m3.png" /></a></td></tr>
+            <tr><td><a href="Watch.aspx"><img alt="" src="../Img/bottom_m4.png" /></a></td></tr>
+            <tr><td><a href="Explore.aspx"><img alt="" src="../Img/bottom_m5.png" /></a></td></tr>
+            </table>
+        </div>
+
+
+    
+    </div>
+    </form>
+</body>
+</html>

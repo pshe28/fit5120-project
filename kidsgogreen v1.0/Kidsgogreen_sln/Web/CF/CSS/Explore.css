@@ -1,0 +1,6 @@
+﻿
+
+.explore_container{}
+.explore_container>div>div{ position:absolute; }
+.explore_container>div>div:nth-child(1){ width:250px; height:335px; color:White; font-size:27px; padding:25px; }
+.explore_container>div>div:nth-child(2){ width:610px; height:385px; }
