@@ -10,15 +10,14 @@
     
         <div style=" background:url(../img/explore_bg1.png); height:600px">
             <div style=" margin-left:120px; margin-top:140px;">
-                Kids To Green <br />
-                Kids To Green <br />
-                Kids To Green <br />
-                Kids To Green <br />
-                Kids To Green <br />
-                Kids To Green <br />
-                Kids To Green <br />
-                Kids To Green <br />
-                Kids To Green 
+                Chart 1 <br />
+                The Area Graph alongside 
+                describes the Average Waste 
+                collected each month from 
+                the year 2009 to 2011
+                Use the filter on the right
+                of the chart to see the trends
+                according to waste type.
             </div>
             <div style=" margin-left:500px; margin-top:140px;">
                  <iframe src="https://public.tableau.com/views/WastedataAreaChart/AreaChart?:showVizHome=no&:embed=true&:showShareOptions=false&:toolbar=no"
@@ -29,15 +28,13 @@
 
         <div style=" background:url(../img/explore_bg2.png); height:523px">
             <div style=" margin-left:120px; margin-top:65px;">
-                Kids To Green <br />
-                Kids To Green <br />
-                Kids To Green <br />
-                Kids To Green <br />
-                Kids To Green <br />
-                Kids To Green <br />
-                Kids To Green <br />
-                Kids To Green <br />
-                Kids To Green 
+                Chart 2 <br />
+                - The Bubble Chart alongside 
+                describes the total waste 
+                collected percentage as 
+                the sum of waste types.<br />
+                - Use the filter on the right
+                of the chart to see yearly trends.
             </div>
             <div style="margin-left:500px; margin-top:65px;">
                   <iframe src="https://public.tableau.com/views/WastedataBubbleChart/Bubblechart?:showVizHome=no&:embed=true&:showShareOptions=false&:toolbar=no"
@@ -48,15 +45,14 @@
 
         <div style=" background:url(../img/explore_bg3.png); height:526px">
           <div style="margin-left:115px; margin-top:70px;">
-                Kids To Green <br />
-                Kids To Green <br />
-                Kids To Green <br />
-                Kids To Green <br />
-                Kids To Green <br />
-                Kids To Green <br />
-                Kids To Green <br />
-                Kids To Green <br />
-                Kids To Green 
+                Chart 3 <br />
+                - The Bar Graph on the right
+                provides a visualisation of 
+                the total waste 
+                collected per year.<br />
+                - The colour scheme describes
+                the type of waste type 
+                in each of the bars.
           </div>
           <div style=" margin-left:505px; margin-top:70px;">
               <iframe src="https://public.tableau.com/views/WastedataBarChart/BarChart?:showVizHome=no&:embed=true&:showShareOptions=false&:toolbar=no"
@@ -66,15 +62,15 @@
 
         <div style=" background:url(../img/explore_bg2.png); height:523px">
             <div style=" margin-left:120px; margin-top:65px;">
-                Kids To Green <br />
-                Kids To Green <br />
-                Kids To Green <br />
-                Kids To Green <br />
-                Kids To Green <br />
-                Kids To Green <br />
-                Kids To Green <br />
-                Kids To Green <br />
-                Kids To Green 
+                Chart 4 <br />
+                - The Scatter plot on 
+                the right shows the impact 
+                of increasing population 
+                on Total Waste collected.<br />
+                - The mouse-over on 
+                the points describe 
+                the population in thousands
+                for the particular year.
             </div>
             <div style="margin-left:500px; margin-top:65px;">
                   <div class='tableauPlaceholder' id='viz1522239563865' >
